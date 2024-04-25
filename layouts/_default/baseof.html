@@ -35,9 +35,9 @@
 	{{- end }}
 
 	<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
-	{{ if and (eq .Site.Params.env "PUBLIC") (ne .Site.GoogleAnalytics "") }}
-   		 {{ template "_internal/google_analytics.html" . }}
-	{{ end }}
+	{{- if not .Site.IsServer }}
+		{{ template "_internal/google_analytics.html" . }}
+	{{- end }}
 </head>
 <body class="body">
 	<div class="container container--outer">
