@@ -1,5 +1,7 @@
 # Mainroad
 克隆修改的主题
+1. 增加了tag统计和tag显示个数；
+2. 适配了微信公众号
 ------------  
 **Mainroad** is a responsive, simple, clean and content-focused [Hugo](https://gohugo.io/) theme based on the
 [MH Magazine lite](https://wordpress.org/themes/mh-magazine-lite/) theme.
