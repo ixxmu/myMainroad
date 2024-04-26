@@ -1,5 +1,6 @@
 # Mainroad
-
+克隆修改的主题
+------------  
 **Mainroad** is a responsive, simple, clean and content-focused [Hugo](https://gohugo.io/) theme based on the
 [MH Magazine lite](https://wordpress.org/themes/mh-magazine-lite/) theme.
 
